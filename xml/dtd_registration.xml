@@ -1,0 +1,37 @@
+<?xml-stylesheet type = "text/xsl" href="sheet.xsl"?>
+<!DOCTYPE db 
+[
+<!ELEMENT   db (student_profiles+)>
+<!ELEMENT student_profiles (user_name,password,email_id,mobile,address,gender)> 
+<!ELEMENT user_name (#PCDATA)>
+<!ELEMENT password (#PCDATA)>
+<!ELEMENT email_id (#PCDATA)>
+<!ELEMENT mobile (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT gender (#PCDATA)>]> 
+<!-- use https://www.truugo.com/xml_validator/ to validat the dtd --><db>
+    <student_profiles>
+        <user_name>kesava</user_name>
+        <password>kesava@123</password>
+        <email_id>21121a0546@gvpce.ac.in</email_id>
+        <mobile>9469464646</mobile>
+        <address>vsp</address>
+        <gender>male</gender>
+    </student_profiles>
+    <student_profiles>
+        <user_name>vidhvesh</user_name>
+        <password>vidhvesh@123</password>
+        <email_id>21131a0533@gvpce.ac.in</email_id>
+        <mobile>9339333333</mobile>
+        <address>vjw</address>
+        <gender>male</gender>
+    </student_profiles>
+    <student_profiles>
+        <user_name>badri</user_name>
+        <password>badri@123</password>
+        <email_id>21131a0550@gvpce.ac.in</email_id>
+        <mobile>9509505050</mobile>
+        <address>tnk</address>
+        <gender>male</gender>
+    </student_profiles>
+</db>
